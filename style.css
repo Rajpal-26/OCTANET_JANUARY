@@ -1,0 +1,63 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+body {
+  width: 100%;
+  /* overflow-x: hidden; */
+}
+.navbar .conatiner-fluid a {
+  color: white;
+}
+#custom-nav {
+  border-radius: 2px solid white;
+}
+#header-text {
+  font-size: 120px;
+  animation: fade 2s;
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+    color: red;
+  }
+
+  100% {
+    opacity: 1;
+    color: white;
+  }
+}
+nav .container-fluid .navbar-brand,
+nav .container-fluid .nav-link active,
+nav .container-fluid .nav-link {
+  color: white;
+}
+#custom-nav,
+#logo {
+  font-size: 20px;
+  font-weight: 300;
+}
+#home {
+  padding-top: 65px;
+}
+#laptop-img {
+  padding-top: 125px;
+}
+.scrolling-wrapper {
+  display: flex;
+  overflow-x: scroll;
+  padding-bottom: 20px;
+}
+.scrolling-wrapper .card {
+  padding: 20px;
+  margin-right: 50px;
+}
+.scrolling-wrapper .card:hover {
+  background-color: black;
+  color: white;
+  transition: 0.2s;
+}
+#contact-us {
+  background-color: black;
+}
